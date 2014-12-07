@@ -1,0 +1,190 @@
+﻿
+html, body, #map-canvas {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#map-canvas {
+width: 100%;
+margin: auto;
+height: 100%;
+}
+
+#graphOuter {
+    width: 80%;
+    height: 440px;
+    margin-top: 85px;
+}
+
+
+    .scale p {
+        height: 140px;
+        text-align: right;
+        padding-right: 8px;
+    }
+
+.fiveDims .left #graphOuter .scale p:nth-child(2) {
+    margin: 0;
+    text-align: right;
+}
+
+.scale p:last-child {
+    height: 20px;
+}
+
+#graphInner {
+    
+background: rgba(255, 255, 255,.6);
+padding: 20px;
+
+}
+
+    #graphInner .bars {
+        height: 18px;
+margin-top: 10px;
+    }
+
+        #graphInner .bars .rank {
+            margin: 170px 3% 10px 3%;
+            font-size: 2em;
+            color: #ccc;
+        }
+
+.bar {
+margin-right:5px;
+    width: 300px;
+    height: 100%;
+    float: right;
+}
+
+#graphInner .bar p {
+    color: #fff;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 25%;
+}
+
+#graphInner .labels {
+    /*margin: 0 3%;
+    width: 100%;*/
+display: inline-block;
+float:right;
+padding-right:10px;
+}
+
+#graphInner #nodata {
+    height: 200px;
+    margin: 0 3%;
+    width: 75%;
+    float: left;
+}
+
+    #graphInner #nodata h4 {
+        margin-top: 40%;
+        text-align: center;
+        font-size: 2em;
+        line-height: 1.5em;
+    }
+
+#ltst-no-data {
+    margin-top: 100px;
+    height: 60px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#graphInner #ltst-no-label {
+    margin-top: 153px;
+}
+
+
+/* CSS BAR GRAPH */
+
+
+.red {
+    background-color: #333;
+    opacity: .8;
+}
+
+.yellow {
+    background-color: #333;
+    opacity: .9;
+}
+
+.green {
+    background-color: #333;
+    opacity: .8;
+}
+
+.blue {
+    background-color: #333;
+    opacity: .8;
+}
+
+.white {
+    background-color: #333;
+    opacity: .8;
+}
+
+.purple {
+    background-color: #333;
+    opacity: .9;
+}
+
+.scale p {
+    display: inline-block;
+}
+
+#graphOuter {
+position: absolute;
+z-index: 1;
+max-width: 250px;
+right: 0;
+}
+
+#title {
+    position: absolute;
+    z-index: 1;
+    max-width: 300px;
+    left: 90px;
+    color:#333;
+    opacity:.8;
+    font-size:50px;
+    top:20px;
+
+}
+#bar-title {
+    font-size:1.2em;
+}
+.bars-chooser {
+    float:right;
+}
+.info_content {
+    height:40px;
+    width:140px;
+}
+.info-content h3 {
+    font-size:30px;
+    padding: 20px 0;
+}
+
+#todolist {
+    width:80%;
+    height:500px;
+    margin: 40px 10%;
+}
+#todolist h1 {
+    font-size:40px;
+    color:#333;
+}
+#todolist .todo {
+    color:#333;
+    margin: 20px;
+    line-height:1.2em;
+}
+
+#todolist .todo .td1{
+    font-size:20px;
+    margin-bottom:5px;
+    }

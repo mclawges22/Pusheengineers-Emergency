@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/map.css" />
+    <script type="text/javascript"
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-aOwss5bqjcLUmcC4W5wlQhHmb3oUphQ">
+    </script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.1.0/tabletop.min.js"></script>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/sandy.js"></script>
+    <script src="js/main.js"></script>
+     <script src="js/nytimes.js"></script>
+
+</head>
+<body>
+    <div id="title"><h1>#EmergencySandy</h1></div>
+    <div class="key-wrapper">
+        <div id="graphOuter">
+            <div id="graphInner">
+                <p id="bar-title">Most needed resources</p>
+                <div class="bars">
+                 <input class="bars-chooser" type="checkbox" name="1" value="1"><div class="bar red" id="pd-score" style="width: 240px;"></div>
+                    <p class="labels">Blankets / Cold Weather Supplies</p>   
+
+                </div>
+                <div class="bars">
+                  <input type="checkbox" name="2" value="2" class="bars-chooser" ><div class="bar yellow" id="ind-score" style="width: 114px;"></div>
+                    <p class="labels">Shelter</p>  
+                </div>
+                <div class="bars">
+                <input type="checkbox" name="3" value="3" class="bars-chooser" ><div class="bar green" id="mas-score" style="width: 159px;"></div>
+                    <p class="labels">Food</p>    
+                </div>
+                <div class="bars">
+                   <input type="checkbox" name="4" value="4" class="bars-chooser" > <div class="bar blue" id="ua-score" style="width: 204px;"></div>
+                    <p class="labels">Water</p>
+                </div>
+            </div>
+          
+        </div>
+    </div>
+    <div id="map-canvas"></div>
+    <div id="todolist">
+        <h1>Your Resource Delivery To-do List</h1>
+    </div>
+    <div id="nytimes">
+    </div>
+
+</body>
+</html>
